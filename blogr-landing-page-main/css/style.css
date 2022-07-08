@@ -1,0 +1,31 @@
+:root {
+
+    /*Background Color*/
+    --clr-body-bg: hsl(207, 13%, 34%);
+
+    /*Gradient Color (Hero/CTA mobile navigation*/ 
+    --gradient-light-red: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    
+    /*Gradient Color (Background)*/ 
+    --gradient-dark-gray-blue: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));    
+
+    /*Hero Colors*/    
+    --clr-hero-cta-text-primary: hsl(356, 100%, 66%);
+    --clr-hero-cta-secondary: hsl(355, 100%, 74%);
+
+    /*Body Text Colors Color*/    
+    --clr-heading-primary:  hsl(208, 49%, 24%);
+    --clr-text: hsl(0, 0%, 100%);
+
+    /*Footer*/
+    --clr-footer-bg: hsl(240, 10%, 16%);
+    --clr-footer-text: hsl(240, 2%, 79%);
+
+    --ff-Overpass: 'Overpass', sans-serif;
+    --ff-Ubuntu: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    box-sizing: border-box;
+}
