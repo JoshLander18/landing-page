@@ -15,45 +15,76 @@
 </head>
 <body>
 
+  <!--<img src="design/desktop-design.jpg">-->
   <div class="intro-container">
-
     <div class="intro-navigation-container">
+
+      <!--<img class="intro-bg-pattern" src="images/bg-pattern-intro-mobile.svg">-->
       <!--Navigation Menu-->
       <div class="navigation">
-        <!--Navigation Title (Blogr)-->
-        <div class="navigation-title">
-          <p class="logo">Blogr</p>
-        </div>
-      <!--Navigation List Items-->
-        <ul class="navigation-list">
-          <li><button class="navigation-dropdown">Product</button></li>
-          <li><button class="navigation-dropdown">Company</button></li>
-          <li><button class="navigation-dropdown">Connect</button></li>
-        </ul>
-        <!--Log In & Sign Up Buttons-->
-        <div class="nav-registration">
-          <div class="log-in-box">
-            <button class="log-in">Log In</button>
-          </div>
 
-          <div class="sign-up-box">
-            <button class="sign-up">Sign-Up</button>
+        <!--Navigation Title (Blogr)-->
+        <div class="navigation-logo">
+          <img src="images/logo.svg">
+        </div>
+
+      <button id="dropbtn-el" class="dropdown-btn">
+          <img id="open-svg" src="images/icon-hamburger.svg">
+          <img id="close-svg" src="images/icon-close.svg">
+      </button>
+      
+      <div class="dropdown-relative">
+        <div id="dropdown" class="dropdown-box">
+          <ul class="dropdown-list">
+            <li><button class="drop-el">Product
+            <svg class="svg-el" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+            </button></li>
+      
+            <li><button class="drop-el">Company
+              <svg class="svg-el" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+            </button></li>
+              
+            <li><button class="drop-el">Connect
+              <svg class="svg-el" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+            </button></li>
+            
+            <div class="connect-box">
+              <a class="connect-el">Contact</a>
+              <a class="connect-el">Newsletter</a>
+              <a class="connect-el">LinkedIn</a>
+            </div>
+            <div class="drop-hr"></div>
+          </ul>
+          <!--Log In & Sign Up Buttons-->
+          <div class="dropdown-registration">
+            <div class="login-box">
+              <button class="drop-el">Login</button>
+            </div>
+      
+            <div class="signup-box">
+              <button class="drop-el">Sign Up</button>
+            </div>
           </div>
         </div>
-        </div>
+      </div>
+      </div>
     </div>
 
     <!--Hero Content-->
     <div class="hero-container">
     
       <div class="hero-heading">
-        <p>A modern publishing platform</p>
+        <p class="hero-header">A modern publishing platform</p>
       </div>
 
-      <div class="hero-paragraph">Grow your audience and build your online brand</div>
+      <div class="hero-paragraph">
+        <p class="hero-text">Grow your audience and build your online brand</p>
+      </div>
 
-      <div class="hero-cta1">Start for Free</div>
-      <div class="hero-cta2">Learn More</div>
+      <div class="hero-cta-container">
+      <a class="hero-cta1">Start for Free</a>
+      <a class="hero-cta2">Learn More</a>
+    </div>
     </div>
 
 
@@ -61,35 +92,36 @@
 
   <main>
   <section class="section2">
-    <div class="section2-wrapper">
 
     <div class="sec2-title">
       <p class="title">Designed for the future</p>
     </div>
 
-    <div class="sec2-content-wrapper">
-      <div class="sec2-content">
+    <div class="sec2-image-wrapper">
+      <img src="images/illustration-editor-mobile.svg">
+    </div>
 
-      <div class="sec2-heading">
-        <p class="sec2-header">Introducing an extensible editor</p>
+      <div class="sec2-title">
+        <span class="title2">
+          <p class="title">Introducing an extensible editor
+          </p>
+          </span>
       </div>
 
       <div class="sec2-text">
         <p class="sec2-p">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
       </div>
 
-      <div class="sec2-heading">
-        <p class="sec2-header">Robust content management</p>
+      <div class="sec2-title">
+        <span class="title3">
+          <p class="title">Robust content management
+          </p>
+          </span>
       </div>
 
       <div class="sec2-text">
         <p class="sec2-p">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
       </div>
-    </div>
-
-    <div class="sec2-image-wrapper">
-      <img src="images/illustration-editor-desktop.svg">
-    </div>
   </div>
 </div>
   </section>
@@ -97,46 +129,49 @@
 
 
   <section class="section3">
-    <div class="sec3-wrapper">
-
-      <div class="sec3-circle-pattern">
-        <img src="images/bg-pattern-circles.svg">
-      </div>
-
-      <div class="sec3-phone">
-        <img src="images/illustration-phones.svg">
-      </div>
+    <div class="sec-wrapper">
+      
+    <div class="sec3-phones">
+      <img src="images/illustration-phones.svg">
+    </div>
 
       <div class="sec3-content-wrapper">
+        
+        <div class="sec3-circle-pattern">
+          <img src="images/bg-pattern-circles.svg">
+        </div>
+        
+    <div class="sec3-overlay-content">
       <div class="sec3-heading">
-        <p class="sec3-header">State of the Art Infrastructure</p>
-      </div>
-  
-      <div class="sec3-text">
-        <p class="sec3-p">Flexible conteWith reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.nt management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
-      </div>
+      <p class="sec3-header">State of the Art Infrastructure</p>
     </div>
-      
+
+    <div class="sec3-text">
+      <p class="sec3-p">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      </p>
+    </div>
+  </div>
+
+    </div>
     </div>
   </section>
 
 
   
   <section class="section4">
-    <div class="sec4-wrapper">
 
       <div class="sec4-laptop">
-        <img src="images/illustration-laptop-desktop.svg">
+        <img src="images/illustration-laptop-mobile.svg">
       </div>
 
       <div class="sec4-content-wrapper">
 
       <div class="sec4-heading">
-        <p class="sec4-header">State of the Art Infrastructure</p>
+        <p class="sec4-header">Free, open, simple</p>
       </div>
   
       <div class="sec4-text">
-        <p class="sec4-p">Flexible conteWith reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.nt management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+        <p class="sec4-p">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
       </div>
 
       <div class="sec4-heading">
@@ -152,76 +187,45 @@
 
 
   <footer>
+    <div class="footer-content-container">
     <div class="footer-logo">
-      <p class="logo">Blogr</p>
+      <img src="images/logo.svg">
     </div>
 
     <div class="footer-column">
-      <p class="footer-product-label">Product</p>
-      <ul class="footer-ul">
-        <li><a href=""></a>Overview</li>
-        <li><a href=""></a>Pricing</li>
-        <li><a href=""></a>Marketplace</li>
-        <li><a href=""></a>Features</li>
-        <li><a href=""></a>Integrations</li>
-      </ul>
+      <p class="footer-label">Product</p>
+      <div class="footer-links">
+      <a href="">Overview</a>
+      <a href="">Pricing</a>
+      <a href="">Marketplace</a>
+      <a href="">Features</a>
+      <a href="">Integrations</a>
+      </div>
     </div>
 
     <div class="footer-column">
-      <p class="footer-company-label">Company</p>
-      <ul class="footer-ul">
-        <li><a href=""></a>About</li>
-        <li><a href=""></a>Team</li>
-        <li><a href=""></a>Blog</li>
-        <li><a href=""></a>Careers</li>
-      </ul>
+      <p class="footer-label">Company</p>
+      <div class="footer-links">
+        <a href="">About</a>
+        <a href="">Team</a>
+        <a href="">Blog</a>
+        <a href="">Careers</a>
+      </div>
     </div>
 
     <div class="footer-column">
-      <p class="footer-connect-label">Connect</p>
-      <ul class="footer-ul">
-        <li><a href=""></a>Contact</li>
-        <li><a href=""></a>Newsletter</li>
-        <li><a href=""></a>LinkedIn</li>
-      </ul>
-    </div>
+      <p class="footer-label">Connect</p>
 
+      <div class="footer-links">
+        <a href="">Contact</a>
+        <a href="">Newsletter</a>
+        <a href="">LinkedIn</a>
+      </div>
+    </div>
+  </div>
   </footer>
 
-  <!--Product
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
 
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn-->
 
   <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
